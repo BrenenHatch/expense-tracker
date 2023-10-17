@@ -1,8 +1,8 @@
 import React from "react";
-import Expenses from "./components/Expenses";
+import Expenses from "./components/Expenses/Expenses";
 import expenses from "./data/expenses";
 
-function App() {
+const App = () => {
   return (
     <div>
       <h2>Let's get started!</h2>
